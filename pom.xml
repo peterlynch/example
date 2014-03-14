@@ -19,12 +19,17 @@
   <groupId>example</groupId>
   <artifactId>example-staging</artifactId>
   <version>1.0</version>
-  <packaging>jar</packaging>
+  <packaging>pom</packaging>
 
   <name>example-staging</name>
   <description>Example project to test Nexus staging.
   </description>
   <url>http://nexus.sonatype.org</url>
+
+  <modules>
+    <module>modules/example-staging-m1</module>
+    <module>modules/example-staging-m2</module>
+  </modules>
 
   <licenses>
     <license>
