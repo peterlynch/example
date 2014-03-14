@@ -1,0 +1,5 @@
+<urn:maven/artifact#${project.groupId}:${project.artifactId}:${project.version}::jar>
+<urn:mycustomspace#repositoryId> "releases" ;
+<urn:mycustomspace#mavenVersion> "3.1.1" ;
+<urn:mycustomspace#releaseManager> "myusername" ;
+<urn:mycustomspace#codeCoverage> ".99" .
